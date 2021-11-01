@@ -5,19 +5,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<style>
-    body
+
+  <style>
+    body,
+    *
+    {
+      box-sizing: border-box;
+    }
     {
      margin: 0px;
      padding: 0px;
-     width: 100%;   
+     width: 100%;
     }
+  </style>
 
-
-</style>
+</head>
 <body>
-  
+
 
 <nav class="navbar navbar-expand-md bg-light">
     <div class="container-fluid">
@@ -30,7 +34,7 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="history.html">History of Internet</a>
+          <a class="nav-link" href="history.thml">History of Internet</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="arpanet.html">ARPANET</a>
@@ -41,85 +45,59 @@
           <li class="nav-item">
             <a class="nav-link" href="IPV4.html">IPV 4</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ecom.html">Development of E-Commerce</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="email.html">E-Mail</a>
-          </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="ecom.html">Development of E-Commerce</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="email.html">E-Mail</a>
+        </li>
+
         </ul>
       </div>
     </div>
   </nav>
 
-    <div class="p-5 bg-primary text-white rounded">
+    <div class="p-5 bg-danger text-white rounded">
       <div class="row">
         <div class="col-md-2">
-          <img src="img/internet1.jpg" class="rounded float-left w-100" alt="internet" style="display:block;float:right;margin-right:20px;">
-        </div>  
+          <img src="img/ecom1.jpg" class="rounded float-left w-100" alt="internet" style="display:block;float:right; margin-right: 20px;">
+        </div>
         <div class="col-md-8">
-        <h1 class="display-2">ARPANET</h1> 
-        <p>Advanced Research Projects Agency Network</p> 
+        <h1 class="display-1">E-commerce</h1>
+        <p>Revolutionized the computer and communications world like nothing before.</p>
       </div>
     </div>
     </div>
-    
+
 
 <div class="container-fluid ">
   <div class="row d-flex justify-content-around p-2">
   <div class="col-md-8 p-2 border border-1">
-    <h1 class="text-center">A R P A N E T</h1>
-    <img src="img/question.jpg" class="rounded float-left w-50 d-block m-auto" alt="internet">
-    
-    <h2>What Is The Full Form Of ARPANET?</h2>
-    <p>The Full Form Of ARPANET is an Advanced Research Projects Agency NET.</p>
-    <p>The Advanced Research Projects Agency Network (ARPANET) is considered as a forerunner to the contemporary Internet. It was the first wide-area packet-switched network with shared control and also one of the primary channels to execute the TCP/IP protocol suite.</p>
+    <img src="img/ecom2.jpg" class="rounded float-left w-50 d-block m-auto" alt="internet">
+    <h2>What is E-Commerce explain with example?</h2>
+    <p>
+      eCommerce (also known as electronic commerce) is the process of buying and selling products or services, making money transfers, and transferring data over an electronic medium (Internet). This network allows people to do business without the constraint of distance and time</p>
+    <h2>What are the 3 types of e-commerce?</h2>
+  <p>There are three main types of e-commerce: business-to-business (websites such as Shopify), business-to-consumer (websites such as Amazon), and consumer-to-consumer (websites such as eBay).</p>
 
-    <h2>History of ARPANET</h2>
-    <p>The ARPANET was a plan financed by the U.S. administration during the Cold War, to build a strong and secure communications network.</p>
-    <p>ARPANET was established in 1969 by the Advanced Research Projects Agency (ARPA) of the US Department of Defense. The whole idea was executed by sharing information using several computers.</p>
-    <p>In the year 1980, ARPANET was delivered to various military networks, Defense Data Network.</p>
-
-    <h2>Characteristics of ARPANET</h2>
-    <p>It is considered a version of WAN.</p>
-    <p>It utilized the theory of Packet Switching Network.</p>
-    <p>It utilized Interface Message Processor for subnetting.</p>
-    <p>The software of ARPANET was divided into two sections: a host and a subnet.</p>
-    
-    <img src="img/internet2.jpg" class="rounded float-left w-50 d-block m-auto" alt="internet">
-    
-
-  <h2>Benefits of ARPANET</h2>
-  <p>It is unbelievable to know that the ARPANET was invented to serve in a Nuclear Attack.</p>
-  <p>It was helping other technologies like collaborations through Emails.</p>
-  <p>It improves the process of transfer of files and data, which ultimately makes the whole procedure smooth.</p>
-
-  <h2>Limitations of ARPANET</h2>
-<p>It required several LANs and due to that, it became difficult to handle it.</p>
-<p>It was not able to cope up with improvements in technology.</p>
-
-<h2>A packet of data</h2>
-<p>ARPANET arose from a desire to share information over great distances without the need for dedicated phone connections between each computer on a network. As it turned out, fulfilling this desire would require “packet switching.”</p>
-<p>Paul Baran, a researcher at the RAND Corporation think tank, first introduced the idea. Baran was instructed to come up with a plan for a computer communications network that could survive nuclear attack and continue functioning. He came up with a process that he called “hot-potato routing,” which later became known as packet switching.</p>
-<p>“Packets” are small clusters of digital information broken up from larger messages for expediency’s sake. To illustrate in more recent terms: an e-mail might be split into numerous electronic packets of information and transmitted almost at random across the labyrinth of the nation’s telephone lines. They do not all follow the same route and do not even need to travel in proper sequential order. They are precisely reassembled by a modem at the receiver’s end, because each packet contains an identifying “header,” revealing which part of the larger message it represents, along with instructions for reconstituting the intended message. As a further safeguard, packets contain mathematical verification schemes that insure data does not get lost in transit. The network on which they travel, meanwhile, consists of computerized switches that automatically forward packets on to their destination. Data packets make computer communications more workable within existing telephone infrastructure by allowing all those packets to flow following paths of least resistance, thereby preventing logjams of digital data over direct, dedicated telephone lines.</p>
+  <h2>Increased Sales With Instant Gratification</h2>
+  <p>For businesses that sell digital goods, eCommerce allows the delivery of products within seconds of making a purchase. This satisfies consumers' need for instant gratification and helps increase sales, especially for low-cost items that are often "impulse buys."</p>
 
 
+<h2>How ecommerce came to be</h2>
+<p>The first ecommerce transaction was made in 1994. A guy named Phil Brandenberger used his Mastercard to buy Sting’s Ten Summoners’ Tales via the internet for $12.48. This particular transaction made history and signaled to the world that the “internet is open” for ecommerce transactions. Why? Because it was the first time that encryption technology was used to enable an internet purchase.</p>
 
-    <div class="row">
-      <div class="col-md-12 bg-dark text-white text-center">
-       <p class="display-6">"The dream behind the Web is of a common information space in which we communicate by sharing information. Its universality is essential: the fact that a hypertext link can point to anything, be it personal, local or global, be it draft or highly polished."</p>
-       <h2>Tim Berners-Lee (1998)</h2>    
-        </div>
-    </div>
-  
+<p>Needless to say, ecommerce has grown by leaps and bounds ever since. The rise of ecommerce giants like Amazon and Alibaba in the mid -1990s changed the face of the retail industry. They largely capitalized on the global internet penetration and digitalization of the financial system which contributed to the decline in sales for many brick-and-mortar businesses.</p>
 
-  
-  
-  </div>  
-  <div class="col-md-3 p-2 bg-light border border-1">
-    <img src="img/girl2.jpg" class="rounded float-left w-100" alt="internet">
+<p>The growth of ecommerce has also shifted the retail workforce. The U.S Bureau of Labour Statistics (BLS) has revealed that from 1997 to 2016, employment in the ecommerce sector  increased by 80%. BLS is also predicting that the number of ecommerce jobs will keep on growing and reach 450,000 in the US by 2026. </p>
+
+<p>Taking this into account, it’s clear that the highly competitive nature of ecommerce will keep on changing the retail industry and influence customers’ behaviour. Starting an online business nowadays seems like an attractive idea for many savvy entrepreneurs, but before anyone dives into this dynamic business sector, they first need to learn the ropes of the ecommerce industry.</p>
+  </div>
+  <div class="col-md-3 p-2 bg-warning border border-1">
+    <img src="img/girl1.jpg" class="rounded float-left w-100" alt="internet">
     <img src="img/thing.jpg" class="rounded float-left w-100" alt="internet">
-    
+
     <div id="accordion">
       <div class="card">
         <div class="card-header">
@@ -180,7 +158,7 @@
             The Dark Web refers to a series of Web sites that require special decryption and configuration tools to access. It is most commonly used for purposes that require strict anonymity, including illegal sales (e.g., of weapons and drugs), political dissent in countries with heavy censorship, and whistleblowing.
           </div>
         </div>
-      </div>      
+      </div>
       <div class="card">
         <div class="card-header">
           <a class="collapsed btn" data-bs-toggle="collapse" href="#collapsesix">
@@ -192,15 +170,15 @@
             While the Internet is theoretically decentralized and thus controlled by no single entity, many argue that tech companies such as Amazon, Facebook, and Google represent a small concentration of organizations that have unprecedented influence over the information and money on the Internet. In some countries, certain parts of the Internet are blocked via censorship.
           </div>
         </div>
-      </div>      
+      </div>
 
 
 
     </div>
- 
 
 
-  </div>  
+
+  </div>
 
 </div>
 
@@ -209,17 +187,15 @@
 <div class="container-fluid ">
   <div class="row">
   <div class="col-md-12 text-center bg-light p-5">
-    <br>
-    <p>Copyright 2021 &copy; <a href="">Page Designed By - Yash Patel</a></p>
+<p>Copyright 2021 &copy; <a href="">Page Designed By - Manan Kumbhani</a> </p>
   </div>
  </div>
-</div>
 </div>
 
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
-
+</div>
 </body>
 
 </html>
