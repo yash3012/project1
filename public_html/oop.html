@@ -29,23 +29,23 @@
       <button class="navbar-toggler text-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Home</a>
           </li>
-            <li class="nav-item">
-              <a class="nav-link" href="oop.html">OOP </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aaa.html">AAA Testing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pylint.html">Pylint</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="solid.html">SOLID Object Oriented Design</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pylint.html">Pylint</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="oop.html">OOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aaa.html">AAA-Testing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="solid.html">SOLID</a>
+          </li>
   
         </ul>
       </div>
@@ -112,7 +112,9 @@
         </div>
         <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
           <div class="card-body">
-            Object-oriented programming combines a group of data attributes with functions or methods into a unit called an "object." Typically, OOP languages are class-based, which means that a class defines the data attributes and functions as a blueprint for creating objects, which are instances of the class.
+            Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects",
+            which can contain data and code: data in the form of fields (often known as attributes or properties),
+            and code, in the form of procedures (often known as methods).
           </div>
         </div>
       </div>
@@ -142,7 +144,12 @@
         </div>
         <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
-            The word, “encapsulate,” means to enclose something. Just like a pill "encapsulates" or contains the medication inside of its coating, the principle of encapsulation works in a similar way in OOP: by forming a protective barrier around the information contained within a class from the rest of the code.
+            Encapsulation is one of the fundamental concepts in object-oriented programming (OOP). It describes the idea of wrapping
+            data and the methods that work on data within one unit. This puts restrictions on accessing variables and methods directly
+            and can prevent the accidental modification of data.
+            <br>To prevent accidental change, an object’s variable can only be changed by an object’s method. Those types of variables
+            are known as private variables. A class is an example of encapsulation as it encapsulates all the data that is member
+            functions, variables, etc.
           </div>
         </div>
       </div>
@@ -154,7 +161,9 @@
         </div>
         <div id="collapsefour" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
-            Abstracting away the gory implementation details of a class and only presenting a clean and easy-to-use interface via the class’ member functions. Carefully used, abstraction helps isolate the impact of changes made to the code, so that if something goes wrong, the change will only affect the implementation details of a class and not the outside code.
+            Abstraction is the principle that creates a class with the intent to be inherited by other classes.
+            This way certain methods and functions that will be run by default for each child class will already be once in the
+            abstract class, so then the class can be implemented in different ways for each child class.
           </div>
         </div>
       </div>
@@ -166,7 +175,16 @@
         </div>
         <div id="collapsefive" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
-            Object-oriented languages that support classes almost always support the notion of “inheritance.” Classes can be organized into hierarchies, where a class might have one or more parent or child classes. If a class has a parent class, we say it is derived or inherited from the parent class and it represents an “IS-A” type relationship. That is to say, the child class “IS-A” type of the parent class..
+            Inheritance is the capability of one class to derive or inherit the properties from another class.
+            The class that derives properties is called the derived class or base class and the class from which the properties
+            are being derived is called the base class or parent class. The benefits of inheritance are:
+            <ul>
+              <li> It represents real-world relationships well.</li>
+              <li> It provides the reusability of a code. We don’t have to write the same code again and again.
+                Also, it allows us to add more features to a class without modifying it.</li>
+              <li> It is transitive in nature, which means that if class B inherits from another class A,
+                then all the subclasses of B would automatically inherit from class A.</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -178,7 +196,12 @@
         </div>
         <div id="collapsesix" class="collapse" data-bs-parent="#accordion">
           <div class="card-body">
-            In OOP, Polymorphism allows for the uniform treatment of classes in a hierarchy. Therefore, calling code only needs to be written to handle objects from the root of the hierarchy, and any object instantiated by any child class in the hierarchy will be handled in the same way.
+            In OOP, Polymorphism allows for the uniform treatment of classes in a hierarchy.
+            Therefore, calling code only needs to be written to handle objects from the root of the hierarchy,
+            and any object instantiated by any child class in the hierarchy will be handled in the same way.
+            Polymorphism simply means having many forms.
+            For example, we need to determine if the given species of birds fly or not,
+            using polymorphism we can do this using a single function.
           </div>
         </div>
       </div>
@@ -198,10 +221,12 @@
 <div class="container-fluid ">
   <div class="row">
   <div class="col-md-12 text-center bg-light p-5">
-    <a href="https://validator.w3.org/check?uri=calculator.html" rel="nofollow" title="Validate as HTML5">W3 Validate Page </a>
 <br>
 	<br>
-    <p>Copyright 2021 &copy; <a href="">Page Designed By - Yash Patel</a> </p>
+    <p>&copy;2021 Yash. Patel. All Rights Reserved.</p>
+    <a href="https://github.com/yash3012/project1/tree/project2"><strong>Github</strong> Source code</a>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fproject2a.eastus.azurecontainer.io%2F">
+      <strong> W3C </strong> Validator</a>
   </div>
  </div>
 </div>

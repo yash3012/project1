@@ -12,6 +12,15 @@ details about the history of the internet and some of its uses.
 
 ### Page Title: Internet in a Nut Shell
 
+
 [Website](http://project1.eastus.azurecontainer.io)
+
+## Update to the Project : 
+Modifications are made to the above project and some webpages
+are added to the existing project depicting how the OOP 
+principles in python are implemented.
+
+###Website Title : Calculator
+
 
 
